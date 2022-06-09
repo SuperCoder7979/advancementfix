@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "advancementfix",
+  "version": "${version}",
+  "name": "Advancement Fixer",
+  "description": "Fixes a stack overflow that happens when you have too many advancements",
+  "authors": [
+    "SuperCoder79"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/advancementfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+
+  },
+  "mixins": [
+    "advancementfix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*"
+  }
+}
